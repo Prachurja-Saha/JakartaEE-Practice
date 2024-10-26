@@ -48,6 +48,17 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+
+        <!--Driver Dependency/ Jar needed to connect JDBC
+        we have to define version here don't know why?
+        TODO: Need to understand-->
+
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <version>8.0.32</version> <!-- Specify MySQL Connector version here -->
+            <scope>runtime</scope>
+        </dependency>
     </dependencies>
 
     <build>
