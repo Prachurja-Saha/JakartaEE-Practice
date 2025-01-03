@@ -1,4 +1,5 @@
 # Hibernate SessionFactory and session is -> EntityManagerFactory and EntityManager in JPA
+  EntityManager -> manages entity
 # Hibernate HQL is -> JPQL in JPA
 
 # JPA NEED/ Why JPA? [sun micro system -> developed]
@@ -8,3 +9,5 @@ is introduced
 * All Orm tool will be using JPA standardize specification.
 * Several ORM tools support or implement the JPA standard by providing their own implementations 
   of the [JPA interfaces]. Hibernate, EclipseLink, OpenJPA, DataNucleus.
+
+# Spring Data JPA use Hibernate Orm tool
